@@ -1,0 +1,30 @@
+.items-wrapper {
+/* border: solid black;
+ border-radius: 2px; */
+ width: 65%;
+ float:right;
+
+}
+
+.items-text {
+ width: 100%;
+
+ word-break: break-word;
+
+}
+
+.items-container {
+ /* border: solid black;
+  border-radius: 2px; */
+  width:100%;
+height: 100%;
+}
+
+.product {
+ padding: 5px;
+ display: inline-block;
+}
+
+
+
+
