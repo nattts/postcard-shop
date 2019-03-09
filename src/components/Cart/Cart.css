@@ -1,0 +1,31 @@
+.cart {
+ float:left;
+}
+
+.cart-list {
+ float: left;
+ list-style: none;
+  display: inline-block;
+}
+
+.cart-price {
+ display: inline;
+}
+
+.total-checkout-continue-shopping {
+ padding: 15px;
+}
+
+.total-box {
+ margin: 2px;
+}
+
+.checkoutt-button {
+ margin: 2px;
+}
+
+.continue-shopping-button {
+ margin: 2px;
+
+}
+

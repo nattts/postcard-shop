@@ -4,6 +4,7 @@ import Logo from './components/Logo/Logo';
 import Aside from './components/Aside/Aside';
 import ItemsContainer from './components/Items/ItemsContainer';
 import Cart from './components/Cart/Cart';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 export default class App extends Component {
@@ -16,19 +17,11 @@ export default class App extends Component {
    <BrowserRouter>
     <div className='App'>
      <Logo/>
-     
-     
      <Aside/>
-
-     {/*<Route exact path='/' component={ItemsComponentClass} />*/}
-     {/* <ItemsContainer/>*/}
-     {/* <div className='wr'>*/}
      <Route exact path='/' render={() => <ItemsContainer properties={this.state} />}/>
-     
-     {/*<div className='clear'></div>*/}
      <Route path='/cart' render={() => <Cart properties={this.state}/> }/>
+     <Route path='/contact' component={Contact} />
     </div>
-    {/*</div>*/}
    </BrowserRouter>
   );
  }

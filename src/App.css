@@ -1,20 +1,16 @@
-/*.wr {
- border: solid black;
- border-radius: 2px; 
- height: 100%;
-
-margin: 3em;
-
+.checkbox {
+width:18px;
+height:18px;
 }
 
-.clear {
- clear: both;
-}*/
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none; 
+  color: #263238;
+}
 
 .add-to-cart-button {
  display: inline-block;
-/* border: none;*/
-/* text-decoration: none;*/
+ border: none;
  width: 100%;
  font-size:1em;
  
@@ -31,4 +27,6 @@ margin: 3em;
 
 .custom-list-style {
   list-style: none;
+ 
 }
+

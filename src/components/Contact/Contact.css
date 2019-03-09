@@ -1,0 +1,37 @@
+.contact-wrapper {
+ width: 65%;
+ float:right;
+}
+
+.contact-text-wrapper {
+ margin: 25px;
+
+}
+
+.contact-text {
+ text-align: center;
+}
+
+.input-wrapper {
+ margin: 25px;
+}
+
+.contact-send-message {
+ padding: 15px;
+}
+
+.input-form {
+ height: 30px;
+ width:100%;
+}
+
+textarea {
+ width:100%;
+}
+
+label {
+ display: block;
+}
+
+
+
